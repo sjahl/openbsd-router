@@ -1,0 +1,5 @@
+dhcpd_flags=em1
+dhcp6c_flags=em0
+pkg_scripts=dhcp6c
+rad_flags=
+unbound_flags=

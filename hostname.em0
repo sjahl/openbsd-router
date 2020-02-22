@@ -1,0 +1,5 @@
+dhcp
+inet6 autoconf
+!/sbin/route add ::/0 -ifp em0 fe80::
+!/usr/sbin/rcctl restart dhcp6c
+~
